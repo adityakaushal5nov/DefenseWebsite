@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import AlumniPage from './components/AlumniPage';
@@ -19,7 +19,7 @@ function App() {
         </main>
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
